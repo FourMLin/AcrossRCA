@@ -1,0 +1,41 @@
+@import '_normalize';
+
+body {
+    background-color: #f3f6f7;
+}
+
+.container {
+    max-width: 768px;
+    margin: 16px auto;
+    padding: 16px;
+}
+
+.nav {
+
+    ul {
+        display: flex;
+
+        li {
+
+            a {
+                padding: 16px;
+            }
+        }
+
+        li:first-child {
+            a {
+                padding-left: 0px;
+            }
+        }
+    }
+}
+
+.main {
+
+    .logo {
+        background: url('../img/Export-sample.1.gif') 100% no-repeat;
+        height: 391px;
+        background-size: cover;
+        box-shadow: 0 0 10px 10px white inset;
+    }
+}
