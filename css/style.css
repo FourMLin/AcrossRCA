@@ -351,11 +351,16 @@ template {
 }
 
 body {
-  background-color: #f3f6f7;
+  background-color: #000000;
+  color: #fff;
+}
+
+body h3 {
+  font-size: 32px;
 }
 
 .container {
-  max-width: 768px;
+  max-width: 1024px;
   margin: 16px auto;
   padding: 16px;
 }
@@ -374,10 +379,48 @@ body {
   padding-left: 0px;
 }
 
-.main .logo {
-  background: url("../img/Export-sample.1.gif") 100% no-repeat;
-  height: 391px;
-  background-size: cover;
-  -webkit-box-shadow: 0 0 10px 10px white inset;
-          box-shadow: 0 0 10px 10px white inset;
+.landing {
+  position: relative;
+  min-height: 600px;
+}
+
+.landing video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -1;
+}
+
+.intro {
+  background-color: #000000;
+  padding: 0;
+}
+
+.intro.intro_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+}
+
+.intro .intro_image {
+  width: 50%;
+}
+
+.earth {
+  background-color: #000000;
+  padding: 30px 0;
+}
+
+.earth h3 {
+  text-align: center;
+  padding: 30px 0;
 }
